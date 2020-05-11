@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherHeader /> matches snapshot 1`] = `
+<div>
+  <CitySelector
+    onChange={[MockFunction]}
+    value={
+      Object {
+        "label": "Sydney, AU",
+        "value": 1105779,
+      }
+    }
+  />
+  <ScaleToggler
+    onToggle={[MockFunction]}
+    value={0}
+  />
+</div>
+`;

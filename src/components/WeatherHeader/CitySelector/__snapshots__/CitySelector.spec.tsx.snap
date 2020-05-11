@@ -1,0 +1,764 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CitySelector /> matches snapshot 1`] = `
+<div>
+  <StateManager
+    defaultInputValue=""
+    defaultMenuIsOpen={false}
+    defaultValue={null}
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "label": "Adelaide, AU",
+          "value": 1099805,
+        },
+        Object {
+          "label": "Ahmedabad, IN",
+          "value": 2295402,
+        },
+        Object {
+          "label": "Albuquerque, US",
+          "value": 2352824,
+        },
+        Object {
+          "label": "Alexandria, EG",
+          "value": 1522006,
+        },
+        Object {
+          "label": "Amsterdam, NL",
+          "value": 727232,
+        },
+        Object {
+          "label": "Ankara, TR",
+          "value": 2343732,
+        },
+        Object {
+          "label": "Athens, GR",
+          "value": 946738,
+        },
+        Object {
+          "label": "Atlanta, US",
+          "value": 2357024,
+        },
+        Object {
+          "label": "Auckland, NZ",
+          "value": 2348079,
+        },
+        Object {
+          "label": "Austin, US",
+          "value": 2357536,
+        },
+        Object {
+          "label": "Baltimore, US",
+          "value": 2358820,
+        },
+        Object {
+          "label": "Bangalore, IN",
+          "value": 2295420,
+        },
+        Object {
+          "label": "Bangkok, TH",
+          "value": 1225448,
+        },
+        Object {
+          "label": "Barcelona, ES",
+          "value": 753692,
+        },
+        Object {
+          "label": "Belfast, GB",
+          "value": 44544,
+        },
+        Object {
+          "label": "Berlin, DE",
+          "value": 638242,
+        },
+        Object {
+          "label": "Birmingham, GB",
+          "value": 12723,
+        },
+        Object {
+          "label": "Birmingham, US",
+          "value": 2364559,
+        },
+        Object {
+          "label": "Blackpool, GB",
+          "value": 12903,
+        },
+        Object {
+          "label": "Bogotá, CO",
+          "value": 368148,
+        },
+        Object {
+          "label": "Bordeaux, FR",
+          "value": 580778,
+        },
+        Object {
+          "label": "Boston, US",
+          "value": 2367105,
+        },
+        Object {
+          "label": "Bournemouth, GB",
+          "value": 13383,
+        },
+        Object {
+          "label": "Brasília, BR",
+          "value": 455819,
+        },
+        Object {
+          "label": "Bremen, DE",
+          "value": 641142,
+        },
+        Object {
+          "label": "Brighton, GB",
+          "value": 13911,
+        },
+        Object {
+          "label": "Brisbane, AU",
+          "value": 1100661,
+        },
+        Object {
+          "label": "Bristol, GB",
+          "value": 13963,
+        },
+        Object {
+          "label": "Buenos Aires, AR",
+          "value": 468739,
+        },
+        Object {
+          "label": "Busan, KR",
+          "value": 1132447,
+        },
+        Object {
+          "label": "Cairo, EG",
+          "value": 1521894,
+        },
+        Object {
+          "label": "Calgary, CA",
+          "value": 8775,
+        },
+        Object {
+          "label": "Cape Town, ZA",
+          "value": 1591691,
+        },
+        Object {
+          "label": "Caracas, VE",
+          "value": 395269,
+        },
+        Object {
+          "label": "Cardiff, GB",
+          "value": 15127,
+        },
+        Object {
+          "label": "Charlotte, US",
+          "value": 2378426,
+        },
+        Object {
+          "label": "Chennai, IN",
+          "value": 2295424,
+        },
+        Object {
+          "label": "Chicago, US",
+          "value": 2379574,
+        },
+        Object {
+          "label": "Cologne, DE",
+          "value": 667931,
+        },
+        Object {
+          "label": "Colorado Springs, US",
+          "value": 2383489,
+        },
+        Object {
+          "label": "Columbus, US",
+          "value": 2383660,
+        },
+        Object {
+          "label": "Coventry, GB",
+          "value": 17044,
+        },
+        Object {
+          "label": "Dallas-Ft. Worth, US",
+          "value": 2388929,
+        },
+        Object {
+          "label": "Den Haag, NL",
+          "value": 726874,
+        },
+        Object {
+          "label": "Denver, US",
+          "value": 2391279,
+        },
+        Object {
+          "label": "Derby, GB",
+          "value": 18114,
+        },
+        Object {
+          "label": "Detroit, US",
+          "value": 2391585,
+        },
+        Object {
+          "label": "Dortmund, DE",
+          "value": 645458,
+        },
+        Object {
+          "label": "Dresden, DE",
+          "value": 645686,
+        },
+        Object {
+          "label": "Dubai, AE",
+          "value": 1940345,
+        },
+        Object {
+          "label": "Dublin, IE",
+          "value": 560743,
+        },
+        Object {
+          "label": "Durban, ZA",
+          "value": 1580913,
+        },
+        Object {
+          "label": "Dusseldorf, DE",
+          "value": 646099,
+        },
+        Object {
+          "label": "Edinburgh, GB",
+          "value": 19344,
+        },
+        Object {
+          "label": "Edmonton, CA",
+          "value": 8676,
+        },
+        Object {
+          "label": "El Paso, US",
+          "value": 2397816,
+        },
+        Object {
+          "label": "Essen, DE",
+          "value": 648820,
+        },
+        Object {
+          "label": "Frankfurt, DE",
+          "value": 650272,
+        },
+        Object {
+          "label": "Fresno, US",
+          "value": 2407517,
+        },
+        Object {
+          "label": "Fukuoka, JP",
+          "value": 1117099,
+        },
+        Object {
+          "label": "Geneva, CH",
+          "value": 782538,
+        },
+        Object {
+          "label": "Glasgow, GB",
+          "value": 21125,
+        },
+        Object {
+          "label": "Gothenburg, SE",
+          "value": 890869,
+        },
+        Object {
+          "label": "Hamburg, DE",
+          "value": 656958,
+        },
+        Object {
+          "label": "Hanoi, VN",
+          "value": 1236594,
+        },
+        Object {
+          "label": "Hiroshima, JP",
+          "value": 1117227,
+        },
+        Object {
+          "label": "Ho Chi Minh City, VN",
+          "value": 1252431,
+        },
+        Object {
+          "label": "Honolulu, US",
+          "value": 2423945,
+        },
+        Object {
+          "label": "Houston, US",
+          "value": 2424766,
+        },
+        Object {
+          "label": "Hull, GB",
+          "value": 25211,
+        },
+        Object {
+          "label": "Hyderabad, IN",
+          "value": 2295414,
+        },
+        Object {
+          "label": "Ibadan, NG",
+          "value": 1393672,
+        },
+        Object {
+          "label": "Indianapolis, US",
+          "value": 2427032,
+        },
+        Object {
+          "label": "Istanbul, TR",
+          "value": 2344116,
+        },
+        Object {
+          "label": "Izmir, TR",
+          "value": 2344117,
+        },
+        Object {
+          "label": "Jackson, US",
+          "value": 2428184,
+        },
+        Object {
+          "label": "Jacksonville, US",
+          "value": 2428344,
+        },
+        Object {
+          "label": "Jakarta, ID",
+          "value": 1047378,
+        },
+        Object {
+          "label": "Johannesburg, ZA",
+          "value": 1582504,
+        },
+        Object {
+          "label": "Kano, NG",
+          "value": 1396803,
+        },
+        Object {
+          "label": "Kansas City, US",
+          "value": 2430683,
+        },
+        Object {
+          "label": "Karachi, PK",
+          "value": 2211096,
+        },
+        Object {
+          "label": "Kawasaki, JP",
+          "value": 1117502,
+        },
+        Object {
+          "label": "Kharkiv, UA",
+          "value": 922137,
+        },
+        Object {
+          "label": "Kitakyushu, JP",
+          "value": 1110809,
+        },
+        Object {
+          "label": "Kobe, JP",
+          "value": 1117545,
+        },
+        Object {
+          "label": "Kolkata, IN",
+          "value": 2295386,
+        },
+        Object {
+          "label": "Kuala Lumpur, MY",
+          "value": 1154781,
+        },
+        Object {
+          "label": "Kyiv, UA",
+          "value": 924938,
+        },
+        Object {
+          "label": "Kyoto, JP",
+          "value": 15015372,
+        },
+        Object {
+          "label": "Lagos, NG",
+          "value": 1398823,
+        },
+        Object {
+          "label": "Lahore, PK",
+          "value": 2211177,
+        },
+        Object {
+          "label": "Las Vegas, US",
+          "value": 2436704,
+        },
+        Object {
+          "label": "Leeds, GB",
+          "value": 26042,
+        },
+        Object {
+          "label": "Leicester, GB",
+          "value": 26062,
+        },
+        Object {
+          "label": "Leipzig, DE",
+          "value": 671072,
+        },
+        Object {
+          "label": "Lille, FR",
+          "value": 608105,
+        },
+        Object {
+          "label": "Lima, PE",
+          "value": 418440,
+        },
+        Object {
+          "label": "Liverpool, GB",
+          "value": 26734,
+        },
+        Object {
+          "label": "London, GB",
+          "value": 44418,
+        },
+        Object {
+          "label": "Long Beach, US",
+          "value": 2441472,
+        },
+        Object {
+          "label": "Los Angeles, US",
+          "value": 2442047,
+        },
+        Object {
+          "label": "Louisville, US",
+          "value": 2442327,
+        },
+        Object {
+          "label": "Lyon, FR",
+          "value": 609125,
+        },
+        Object {
+          "label": "Madrid, ES",
+          "value": 766273,
+        },
+        Object {
+          "label": "Manchester, GB",
+          "value": 28218,
+        },
+        Object {
+          "label": "Manila, PH",
+          "value": 1199477,
+        },
+        Object {
+          "label": "Maracaibo, VE",
+          "value": 395270,
+        },
+        Object {
+          "label": "Marseille, FR",
+          "value": 610264,
+        },
+        Object {
+          "label": "Melbourne, AU",
+          "value": 1103816,
+        },
+        Object {
+          "label": "Memphis, US",
+          "value": 2449323,
+        },
+        Object {
+          "label": "Mesa, US",
+          "value": 2449808,
+        },
+        Object {
+          "label": "Mexico City, MX",
+          "value": 116545,
+        },
+        Object {
+          "label": "Miami, US",
+          "value": 2450022,
+        },
+        Object {
+          "label": "Middlesbrough, GB",
+          "value": 28869,
+        },
+        Object {
+          "label": "Milan, IT",
+          "value": 718345,
+        },
+        Object {
+          "label": "Milwaukee, US",
+          "value": 2451822,
+        },
+        Object {
+          "label": "Minneapolis, US",
+          "value": 2452078,
+        },
+        Object {
+          "label": "Minsk, BY",
+          "value": 834463,
+        },
+        Object {
+          "label": "Mombasa, KE",
+          "value": 1528335,
+        },
+        Object {
+          "label": "Montreal, CA",
+          "value": 3534,
+        },
+        Object {
+          "label": "Moscow, RU",
+          "value": 2122265,
+        },
+        Object {
+          "label": "Munich, DE",
+          "value": 676757,
+        },
+        Object {
+          "label": "Nagoya, JP",
+          "value": 1117817,
+        },
+        Object {
+          "label": "Nairobi, KE",
+          "value": 1528488,
+        },
+        Object {
+          "label": "Naples, IT",
+          "value": 719258,
+        },
+        Object {
+          "label": "Nashville, US",
+          "value": 2457170,
+        },
+        Object {
+          "label": "New Orleans, US",
+          "value": 2458833,
+        },
+        Object {
+          "label": "New York, US",
+          "value": 2459115,
+        },
+        Object {
+          "label": "Newcastle, GB",
+          "value": 30079,
+        },
+        Object {
+          "label": "Nottingham, GB",
+          "value": 30720,
+        },
+        Object {
+          "label": "Oklahoma City, US",
+          "value": 2464592,
+        },
+        Object {
+          "label": "Omaha, US",
+          "value": 2465512,
+        },
+        Object {
+          "label": "Osaka, JP",
+          "value": 15015370,
+        },
+        Object {
+          "label": "Oslo, NO",
+          "value": 862592,
+        },
+        Object {
+          "label": "Paris, FR",
+          "value": 615702,
+        },
+        Object {
+          "label": "Perth, AU",
+          "value": 1098081,
+        },
+        Object {
+          "label": "Philadelphia, US",
+          "value": 2471217,
+        },
+        Object {
+          "label": "Phoenix, US",
+          "value": 2471390,
+        },
+        Object {
+          "label": "Plymouth, GB",
+          "value": 32185,
+        },
+        Object {
+          "label": "Portland, US",
+          "value": 2475687,
+        },
+        Object {
+          "label": "Portsmouth, GB",
+          "value": 32452,
+        },
+        Object {
+          "label": "Preston, GB",
+          "value": 32566,
+        },
+        Object {
+          "label": "Providence, US",
+          "value": 2477058,
+        },
+        Object {
+          "label": "Pune, IN",
+          "value": 2295412,
+        },
+        Object {
+          "label": "Raleigh, US",
+          "value": 2478307,
+        },
+        Object {
+          "label": "Richmond, US",
+          "value": 2480894,
+        },
+        Object {
+          "label": "Rio de Janeiro, BR",
+          "value": 455825,
+        },
+        Object {
+          "label": "Riyadh, SA",
+          "value": 1939753,
+        },
+        Object {
+          "label": "Rome, IT",
+          "value": 721943,
+        },
+        Object {
+          "label": "Sacramento, US",
+          "value": 2486340,
+        },
+        Object {
+          "label": "Saint Petersburg, RU",
+          "value": 2123260,
+        },
+        Object {
+          "label": "Saitama, JP",
+          "value": 1116753,
+        },
+        Object {
+          "label": "Salt Lake City, US",
+          "value": 2487610,
+        },
+        Object {
+          "label": "Salvador, BR",
+          "value": 455826,
+        },
+        Object {
+          "label": "San Antonio, US",
+          "value": 2487796,
+        },
+        Object {
+          "label": "San Diego, US",
+          "value": 2487889,
+        },
+        Object {
+          "label": "San Francisco, US",
+          "value": 2487956,
+        },
+        Object {
+          "label": "San Jose, US",
+          "value": 2488042,
+        },
+        Object {
+          "label": "Santiago, CL",
+          "value": 349859,
+        },
+        Object {
+          "label": "Sapporo, JP",
+          "value": 1118108,
+        },
+        Object {
+          "label": "Seattle, US",
+          "value": 2490383,
+        },
+        Object {
+          "label": "Seoul, KR",
+          "value": 1132599,
+        },
+        Object {
+          "label": "Sheffield, GB",
+          "value": 34503,
+        },
+        Object {
+          "label": "Singapore, SG",
+          "value": 1062617,
+        },
+        Object {
+          "label": "St. Louis, US",
+          "value": 2486982,
+        },
+        Object {
+          "label": "Stockholm, SE",
+          "value": 906057,
+        },
+        Object {
+          "label": "Stuttgart, DE",
+          "value": 698064,
+        },
+        Object {
+          "label": "Surat, IN",
+          "value": 2295405,
+        },
+        Object {
+          "label": "Swansea, GB",
+          "value": 36758,
+        },
+        Object {
+          "label": "Sydney, AU",
+          "value": 1105779,
+        },
+        Object {
+          "label": "São Paulo, BR",
+          "value": 455827,
+        },
+        Object {
+          "label": "Tokyo, JP",
+          "value": 1118370,
+        },
+        Object {
+          "label": "Toronto, CA",
+          "value": 4118,
+        },
+        Object {
+          "label": "Toulouse, FR",
+          "value": 628886,
+        },
+        Object {
+          "label": "Tucson, US",
+          "value": 2508428,
+        },
+        Object {
+          "label": "Vancouver, CA",
+          "value": 9807,
+        },
+        Object {
+          "label": "Vienna, AT",
+          "value": 551801,
+        },
+        Object {
+          "label": "Virginia Beach, US",
+          "value": 2512636,
+        },
+        Object {
+          "label": "Warsaw, PL",
+          "value": 523920,
+        },
+        Object {
+          "label": "Washington, US",
+          "value": 2514815,
+        },
+        Object {
+          "label": "Yokohama, JP",
+          "value": 1118550,
+        },
+        Object {
+          "label": "Zurich, CH",
+          "value": 784794,
+        },
+      ]
+    }
+    styles={
+      Object {
+        "control": [Function],
+        "input": [Function],
+        "singleValue": [Function],
+      }
+    }
+    value={
+      Object {
+        "label": "Sydney, AU",
+        "value": 1105779,
+      }
+    }
+  />
+  <HomeIcon
+    onGoHome={[MockFunction]}
+  />
+</div>
+`;

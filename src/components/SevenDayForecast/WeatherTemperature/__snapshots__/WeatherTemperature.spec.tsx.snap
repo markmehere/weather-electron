@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherTemperature /> matches snapshot with celsius scale 1`] = `
+<div>
+  <span>
+    20
+    °
+    C
+  </span>
+   / 
+  <span>
+    -2
+    °
+    C
+  </span>
+</div>
+`;
+
+exports[`<WeatherTemperature /> matches snapshot with farenheit scale 1`] = `
+<div>
+  <span>
+    68
+    °
+    F
+  </span>
+   / 
+  <span>
+    28
+    °
+    F
+  </span>
+</div>
+`;

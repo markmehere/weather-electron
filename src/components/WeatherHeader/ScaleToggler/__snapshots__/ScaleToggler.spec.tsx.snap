@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ScaleToggler /> matches snapshot 1`] = `
+<div>
+  <div>
+    °C
+  </div>
+  <div>
+    <Toggle
+      activeLabel=""
+      activeLabelStyle={Object {}}
+      activeLabelStyleHover={Object {}}
+      animateThumbStyleHover={[Function]}
+      animateThumbStyleToggle={[Function]}
+      animateTrackStyleHover={[Function]}
+      animateTrackStyleToggle={[Function]}
+      colors={
+        Object {
+          "active": Object {
+            "base": "rgb(207,221,245)",
+            "hover": "rgb(177, 191, 215)",
+          },
+          "activeThumb": Object {
+            "base": "rgb(250,250,250)",
+          },
+          "inactive": Object {
+            "base": "rgb(65,66,68)",
+            "hover": "rgb(95,96,98)",
+          },
+          "inactiveThumb": Object {
+            "base": "rgb(62,130,247)",
+          },
+        }
+      }
+      containerStyle={Object {}}
+      inactiveLabel=""
+      inactiveLabelStyle={Object {}}
+      inactiveLabelStyleHover={Object {}}
+      internalHoverSpringSetting={
+        Object {
+          "damping": 20,
+          "stiffness": 180,
+        }
+      }
+      internalSpringSetting={
+        Object {
+          "damping": 22,
+          "stiffness": 180,
+        }
+      }
+      onToggle={[Function]}
+      passThroughInputProps={Object {}}
+      thumbAnimateRange={
+        Array [
+          -10,
+          36,
+        ]
+      }
+      thumbStyle={
+        Object {
+          "boxShadow": "0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24)",
+          "height": 30,
+          "position": "absolute",
+          "width": 30,
+        }
+      }
+      thumbStyleHover={Object {}}
+      trackStyle={
+        Object {
+          "height": 15,
+        }
+      }
+      trackStyleHover={Object {}}
+      value={false}
+    />
+  </div>
+  <div>
+    °F
+  </div>
+</div>
+`;

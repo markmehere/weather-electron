@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SevenDayForecast /> matches snapshot no data 1`] = `
+<div>
+  <Loader
+    className=""
+    color="#2c4c7c"
+    height={100}
+    style={Object {}}
+    timeout={0}
+    type="Bars"
+    visible={true}
+    width={100}
+  />
+</div>
+`;
+
+exports[`<SevenDayForecast /> matches snapshot with celsius scale 1`] = `
+<div>
+  <div>
+    <div
+      key="0"
+    >
+      <WeatherSymbol
+        date="2020-05-09"
+        kind="c"
+      />
+      <WeatherTemperature
+        max={20.2}
+        min={-2.2}
+        scale={0}
+      />
+    </div>
+    <div
+      key="1"
+    >
+      <WeatherSymbol
+        date="2020-05-10"
+        kind="hc"
+      />
+      <WeatherTemperature
+        max={18.2}
+        min={4.6}
+        scale={0}
+      />
+    </div>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`<SevenDayForecast /> matches snapshot with error 1`] = `
+<div>
+  <p>
+    Bad news
+  </p>
+</div>
+`;
+
+exports[`<SevenDayForecast /> matches snapshot with farenheit scale 1`] = `
+<div>
+  <div>
+    <div
+      key="0"
+    >
+      <WeatherSymbol
+        date="2020-05-09"
+        kind="c"
+      />
+      <WeatherTemperature
+        max={20.2}
+        min={-2.2}
+        scale={1}
+      />
+    </div>
+    <div
+      key="1"
+    >
+      <WeatherSymbol
+        date="2020-05-10"
+        kind="hc"
+      />
+      <WeatherTemperature
+        max={18.2}
+        min={4.6}
+        scale={1}
+      />
+    </div>
+    <div
+      key="2"
+    >
+      <WeatherSymbol
+        date="2020-05-11"
+        kind="lc"
+      />
+      <WeatherTemperature
+        max={30.2}
+        min={6.4}
+        scale={1}
+      />
+    </div>
+  </div>
+  <div />
+</div>
+`;

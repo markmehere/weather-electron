@@ -1,0 +1,129 @@
+{
+  "name": "weather-electron",
+  "productName": "Weather",
+  "version": "1.0.0",
+  "description": "A sample weather using Electron",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "test": "cross-env CI=true react-scripts test",
+    "dev-test": "cross-env CI=true react-scripts test -u",
+    "lint": "eslint --ext .ts ."
+  },
+  "keywords": [],
+  "author": {
+    "name": "Mark Pazolli",
+    "email": "pazollim@gmail.com"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "icon": "icon.icns",
+        "extendInfo": "Info.plist",
+        "extraResource": [
+          "static"
+        ]
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "weather_electron"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ],
+      "plugins": [
+        [
+          "@electron-forge/plugin-webpack",
+          {
+            "mainConfig": "./webpack.main.config.js",
+            "renderer": {
+              "config": "./webpack.renderer.config.js",
+              "entryPoints": [
+                {
+                  "html": "./src/index.html",
+                  "js": "./src/renderer.tsx",
+                  "name": "main_window"
+                }
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.51",
+    "@electron-forge/maker-deb": "^6.0.0-beta.51",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.51",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
+    "@electron-forge/maker-zip": "^6.0.0-beta.51",
+    "@electron-forge/plugin-webpack": "^6.0.0-beta.51",
+    "@marshallofsound/webpack-asset-relocator-loader": "^0.5.0",
+    "@types/classnames": "^2.2.10",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@types/react-loader-spinner": "^3.1.0",
+    "@types/react-redux": "^7.1.8",
+    "@types/react-select": "^3.0.12",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "classnames": "^2.2.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.5.3",
+    "electron": "8.2.5",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^5.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "fork-ts-checker-webpack-plugin": "^3.1.1",
+    "jest-fetch-mock": "^3.0.3",
+    "less": "^3.11.1",
+    "less-loader": "^6.1.0",
+    "moment": "^2.25.3",
+    "node-loader": "^0.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-loader-spinner": "^3.1.14",
+    "react-redux": "^7.2.0",
+    "react-scripts": "^3.4.1",
+    "react-select": "^3.1.0",
+    "react-toggle-button": "^2.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "typescript-plugin-css-modules": "^2.3.0"
+  }
+}

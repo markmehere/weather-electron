@@ -1,8 +1,9 @@
-import { app } from 'electron';
+import { app, shell } from 'electron';
 
 const isMac = process.platform === 'darwin';
 
-export const menuTemplates = [
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const menuTemplates: any = [
   // { role: 'appMenu' }
   ...(isMac ? [{
     label: app.name,
@@ -83,7 +84,6 @@ export const menuTemplates = [
       {
         label: 'Learn More',
         click: async () => {
-          const { shell } = require('electron')
           await shell.openExternal('https://electronjs.org')
         }
       }

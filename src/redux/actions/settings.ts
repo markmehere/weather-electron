@@ -2,7 +2,7 @@ import { TemperatureScale } from "../../types/TemperatureScale";
 import { GenericAction } from "../../types/GenericAction";
 import { CityType } from "../../types/CityType";
 import { GenericThunk } from "../../types/GenericThunk";
-import { getForecast, fakeGetForecast } from "./weather";
+import { getForecast } from "./weather";
 
 export const GO_HOME = 'GO_HOME';
 export const SET_UNITS = 'SET_UNITS';

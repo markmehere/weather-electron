@@ -17,5 +17,5 @@ export interface ConsolidatedWeatherResponse {
 }
 
 export interface MetaWeatherResponse {
-  consolidated_weather: ConsolidatedWeatherResponse[]
+  consolidated_weather: ConsolidatedWeatherResponse[];
 }

@@ -35,13 +35,23 @@ To test:
 nvm use
 npm install
 npm test
+npm run test:fix
+```
+
+To lint:
+
+```
+nvm use
+npm install
+npm run lint
+npm run lint:fix
 ```
 
 ## Building from scratch
 
 1. Install [git](https://git-scm.com/) - Electron depends on it
 2. Install [node](https://nodejs.org/en/) v12.x - either direct from that link or via nvm using
-  [Homebrew](https://brew.sh/) or [NVM for Windows](https://github.com/coreybutler/nvm-windows)
+  [NVM](https://github.com/nvm-sh/nvm) or [NVM for Windows](https://github.com/coreybutler/nvm-windows)
 3. If using nvm prepare using `nvm install v12.16.3` and `nvm use v12.16.3`
 4. Type `npm install`
 5. To build the desktop app `npm run package`

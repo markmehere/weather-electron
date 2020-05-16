@@ -10,8 +10,9 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "test": "cross-env CI=true react-scripts test",
-    "dev-test": "cross-env CI=true react-scripts test -u",
-    "lint": "eslint --ext .ts ."
+    "test:fix": "cross-env CI=true react-scripts test -u",
+    "lint": "eslint --ext .ts .",
+    "lint:fix": "eslint --ext .ts --fix ."
   },
   "keywords": [],
   "author": {

@@ -1,5 +1,5 @@
 import cities from "../../data/cities.json";
-import Store from "electron-store";
+import Store from "electron-store"; // eslint-disable-line import/default
 import { TemperatureScale } from "../../types/TemperatureScale";
 import { SettingsStore } from "../reducers/settings";
 
@@ -34,7 +34,7 @@ export function run(store: Store): SettingsStore {
         store.set(homeCity);
       }
     }
-    catch (e) { }
+    catch (e) { }  // eslint-disable-line no-empty
   }
 
   if (!initialCity && homeCity) { initialCity = homeCity; }

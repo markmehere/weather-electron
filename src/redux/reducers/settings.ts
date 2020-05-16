@@ -2,7 +2,7 @@ import { TemperatureScale } from "../../types/TemperatureScale";
 import { AppAction } from "../actions";
 import { SET_UNITS, SET_CITY, GO_HOME } from "../actions/settings";
 import { CityType } from "../../types/CityType";
-import Store from "electron-store";
+import Store from "electron-store"; // eslint-disable-line import/default
 import { run } from "../initializers/settings";
 
 export interface SettingsStore {

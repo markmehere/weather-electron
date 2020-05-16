@@ -1,6 +1,5 @@
 import { app, BrowserWindow, Menu } from 'electron';
 import { menuTemplates } from './menus';
-declare const MAIN_WINDOW_WEBPACK_ENTRY: any;
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
@@ -16,8 +15,7 @@ const createWindow = () => {
     width: 800,
     webPreferences: {
       nodeIntegration: true,
-      webSecurity: !
-      isDevelopment
+      webSecurity: !isDevelopment
     }
   });
   mainWindow.setBackgroundColor('#282c34');
@@ -52,5 +50,5 @@ app.on('activate', () => {
 });
 
 // Custom menus for this application
-const menu = Menu.buildFromTemplate(menuTemplates as any);
+const menu = Menu.buildFromTemplate(menuTemplates);
 Menu.setApplicationMenu(menu);

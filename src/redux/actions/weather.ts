@@ -44,6 +44,7 @@ const getForecastFailure = (error: string) => {
 
 const hash = (str: string) => {
   let hash = 0;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [...(str as any)].forEach((c, i) => hash = i * 300 + str.charCodeAt(i));
   return hash;
 };

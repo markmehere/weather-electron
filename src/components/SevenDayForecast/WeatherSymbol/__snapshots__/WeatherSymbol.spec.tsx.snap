@@ -1,15 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<WeatherSymbol /> matches snapshot 1`] = `
-<div>
+<div
+  className="weatherSymbol"
+>
   <img
     alt="Clear"
     src="http://localhost/static/c.svg"
   />
-  <p>
+  <p
+    className="weatherDescriptionSmall"
+  >
     Sunday
   </p>
-  <p>
+  <p
+    className="weatherDescription"
+  >
     Clear
   </p>
 </div>

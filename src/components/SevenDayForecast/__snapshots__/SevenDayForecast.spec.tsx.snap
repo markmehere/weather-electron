@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SevenDayForecast /> matches snapshot no data 1`] = `
-<div>
+<div
+  className="loading"
+>
   <Loader
     className=""
     color="#2c4c7c"
@@ -16,9 +18,14 @@ exports[`<SevenDayForecast /> matches snapshot no data 1`] = `
 `;
 
 exports[`<SevenDayForecast /> matches snapshot with celsius scale 1`] = `
-<div>
-  <div>
+<div
+  className="overall"
+>
+  <div
+    className="firstRow"
+  >
     <div
+      className="panel"
       key="0"
     >
       <WeatherSymbol
@@ -32,6 +39,7 @@ exports[`<SevenDayForecast /> matches snapshot with celsius scale 1`] = `
       />
     </div>
     <div
+      className="panel"
       key="1"
     >
       <WeatherSymbol
@@ -45,12 +53,16 @@ exports[`<SevenDayForecast /> matches snapshot with celsius scale 1`] = `
       />
     </div>
   </div>
-  <div />
+  <div
+    className="secondRow"
+  />
 </div>
 `;
 
 exports[`<SevenDayForecast /> matches snapshot with error 1`] = `
-<div>
+<div
+  className="loading"
+>
   <p>
     Bad news
   </p>
@@ -58,9 +70,14 @@ exports[`<SevenDayForecast /> matches snapshot with error 1`] = `
 `;
 
 exports[`<SevenDayForecast /> matches snapshot with farenheit scale 1`] = `
-<div>
-  <div>
+<div
+  className="overall"
+>
+  <div
+    className="firstRow"
+  >
     <div
+      className="panel"
       key="0"
     >
       <WeatherSymbol
@@ -74,6 +91,7 @@ exports[`<SevenDayForecast /> matches snapshot with farenheit scale 1`] = `
       />
     </div>
     <div
+      className="panel"
       key="1"
     >
       <WeatherSymbol
@@ -87,6 +105,7 @@ exports[`<SevenDayForecast /> matches snapshot with farenheit scale 1`] = `
       />
     </div>
     <div
+      className="panel"
       key="2"
     >
       <WeatherSymbol
@@ -100,6 +119,8 @@ exports[`<SevenDayForecast /> matches snapshot with farenheit scale 1`] = `
       />
     </div>
   </div>
-  <div />
+  <div
+    className="secondRow"
+  />
 </div>
 `;

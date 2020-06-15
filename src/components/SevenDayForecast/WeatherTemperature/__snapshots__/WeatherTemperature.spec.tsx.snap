@@ -1,14 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<WeatherTemperature /> matches snapshot with celsius scale 1`] = `
-<div>
-  <span>
+<div
+  className="weatherTemperature"
+>
+  <span
+    className="max"
+  >
     20
     °
     C
   </span>
    / 
-  <span>
+  <span
+    className="min"
+  >
     -2
     °
     C
@@ -17,14 +23,20 @@ exports[`<WeatherTemperature /> matches snapshot with celsius scale 1`] = `
 `;
 
 exports[`<WeatherTemperature /> matches snapshot with farenheit scale 1`] = `
-<div>
-  <span>
+<div
+  className="weatherTemperature"
+>
+  <span
+    className="max"
+  >
     68
     °
     F
   </span>
    / 
-  <span>
+  <span
+    className="min"
+  >
     28
     °
     F

@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<CitySelector /> matches snapshot 1`] = `
-<div>
+<div
+  className="picker"
+>
   <StateManager
     defaultInputValue=""
     defaultMenuIsOpen={false}
@@ -758,6 +760,7 @@ exports[`<CitySelector /> matches snapshot 1`] = `
     }
   />
   <HomeIcon
+    className="homeIcon"
     onGoHome={[MockFunction]}
   />
 </div>
